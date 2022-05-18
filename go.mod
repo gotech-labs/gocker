@@ -3,6 +3,7 @@ module github.com/gotech-labs/gocker
 go 1.17
 
 require (
+	github.com/go-sql-driver/mysql v1.6.0
 	github.com/gotech-labs/core v0.0.0-20220511164548-e8201eb2eb20
 	github.com/ory/dockertest/v3 v3.8.1
 	github.com/stretchr/testify v1.7.0

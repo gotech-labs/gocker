@@ -51,7 +51,7 @@ func New(tag string, plugins ...string) *Container {
 	}
 	return &Container{
 		Container: gocker.New(
-			"elasticsearch"+tag,
+			"elasticsearch_"+tag,
 			"elasticsearch",
 			tag,
 			dockerOptions...,
